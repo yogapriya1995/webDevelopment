@@ -23,7 +23,10 @@
   <%
   String name=request.getParameter("username");
   %>
-      <h1>Welcome :<%= name%> </h1>
+	<h1>Welcome Page</h1>
+      <table border ="1" width="500" align="center"  border-collapse="collapse">
+      <tr align="center">Welcome :<%= name%> </tr>
+      </table>
       <table border ="1" width="500" align="center"  border-collapse="collapse">
          <tr bgcolor="537AAF" >
          
